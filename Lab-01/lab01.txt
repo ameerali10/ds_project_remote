@@ -1,0 +1,34 @@
+Task !:
+Python Installation Verification
+Run the command to check your current Python version to ensure Python 3 is installed and active on your system.
+Command: python3 --version
+
+Task 2:
+Virtual Environment Creation and Activation
+Create a new isolated virtual environment named 'ds_env' and activate it. Provide the commands used for both steps.
+Command of creation of virtual environment:
+python3 -m venv ds_env
+
+Command to activate it in powershell:
+.\ds_env\Scripts\Activate.ps1
+
+Task 3:
+Core Data Science Stack Installation
+Install the five core data science libraries (NumPy, Pandas, Matplotlib, Seaborn, and scikit-learn) plus Jupyter into your active virtual environment using pip.
+to install libraries in active environment using pip:
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter
+
+to verify that libraries are successfully installed:
+pip list
+
+Task 4:
+Jupyter Notebook Launch
+Launch the Jupyter notebook interface from within your activated virtual environment.
+Command: jupyter notebook
+
+Task 5:
+command: pip freeze > requirements.txt
+This creates a requirements.txt file containing all currently installed packages and their exact versions.
+
+to view its content:
+cat requirements.txt
